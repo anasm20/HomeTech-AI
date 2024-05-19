@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marken - HomeTechAI</title>
+    <link rel="stylesheet" href="/static/styles/chatbot.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/static/components/navbar.js" defer></script>
+    <script src="/static/components/footer.js" defer></script>
+</head>
+<body>
+    <main class="container my-4">
+        <h1>Marken</h1>
+        <p>Entdecken Sie eine Auswahl an führenden Marken im Bereich Smart Home:</p>
+        <ul>
+            <li>
+                <h2>BrandX</h2>
+                <p>Eine der führenden Marken für Smart-Beleuchtungssysteme und Sicherheitslösungen.</p>
+            </li>
+            <li>
+                <h2>SmartHomeTech</h2>
+                <p>Bietet eine breite Palette von Smart-Home-Produkten, von Thermostaten bis hin zu Sprachassistenten.</p>
+            </li>
+            <li>
+                <h2>Connectify</h2>
+                <p>Spezialisiert auf vernetzte Unterhaltungsgeräte und Multi-Room-Audio-Systeme.</p>
+            </li>
+        </ul>
+        <button id="toggleChatbot">
+            <i class="fas fa-comments"></i>  ..Hi
+        </button>
+    
+        <div id="chatbot-container">
+            <button id="closeChatbot"><i class="fas fa-times"></i></button>
+            <iframe id="chatBotFrame" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/76681bab-dc51-4183-b7f2-aff63e54797c"></iframe>
+        </div>   
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

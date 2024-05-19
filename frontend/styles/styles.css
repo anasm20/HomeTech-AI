@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fde8c4;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+main {
+    margin: 20px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #f4cf92;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.categories {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.categories button {
+    background-color: #f2e3d5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.top-deals {
+    text-align: center;
+}
+
+.top-deals .deal {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+/*
+footer  {
+    text-align: center;
+    padding: 40px;
+    color: black !important; 
+}
+*/
+
+/* CSS für den Chatbot anzeigen-Button */
+#toggleChatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+/* Home-Card */
+.card-img-top {
+    height: 250px; /* Adjust as necessary */
+    object-fit: cover; /* Makes sure the images fill the area */
+}
+
+/* Set a consistent card height */
+.card {
+    height: 350px; /* Adjust the card height as necessary */
+}

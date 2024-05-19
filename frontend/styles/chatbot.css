@@ -1,0 +1,47 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+#toggleChatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: #FFCC00 !important;
+    color: #004AAD;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#chatbot-container {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    z-index: 10000;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#closeChatbot {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 10001;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+}
+
+#chatBotFrame {
+    border: none;
+    width: 350px;
+    height: 430px;
+    border-radius: 5px;
+}
+
