@@ -1,5 +1,3 @@
-# Author: Dhaval Patel. Codebasics YouTube Channel
-
 to install:
 pip install fastapi uvicorn jinja2 aiofiles python-multipart
 brew tap heroku/brew && brew install heroku
